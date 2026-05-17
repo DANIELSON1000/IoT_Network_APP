@@ -78,7 +78,7 @@ if 'pulse_triggered' not in st.session_state:
     st.session_state.pulse_triggered = False
 
 # -------------------------
-# CSS Styling (Cyberpunk Theme - Same as Local)
+# CSS Styling (Cyberpunk Theme)
 # -------------------------
 st.markdown("""
 <style>
@@ -107,9 +107,6 @@ st.markdown("""
     ::-webkit-scrollbar-thumb {
         background: rgba(0, 245, 255, 0.3);
         border-radius: 3px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-        background: rgba(0, 245, 255, 0.5);
     }
     
     /* Header Section */
